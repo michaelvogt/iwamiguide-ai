@@ -1,0 +1,143 @@
+{
+  "templates": [
+    "more",
+    "more results",
+    "anything else",
+    "other results",
+    "what else",
+    "are there more",
+    "tell me more",
+    "show me more",
+    "more information"
+  ],
+  "userSays": [
+    {
+      "id": "75ae94a7-a3b4-4d59-a0a8-6c6acc662ad0",
+      "data": [
+        {
+          "text": "more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "513d2ee1-2672-4f41-a8d0-802e32146d99",
+      "data": [
+        {
+          "text": "more results"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2e6d74db-91f2-4e5a-b15f-138a52e5b22d",
+      "data": [
+        {
+          "text": "anything else"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bff11217-2c08-4b67-81b9-2793201fed41",
+      "data": [
+        {
+          "text": "other results"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d586743a-bb14-4d9d-9e51-287d2b94eaed",
+      "data": [
+        {
+          "text": "what else"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "45464ef3-f542-4a7a-94e6-5f47ff3439ac",
+      "data": [
+        {
+          "text": "are there more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "33290a74-8c51-40e4-ac5c-8424f2ec7a35",
+      "data": [
+        {
+          "text": "tell me more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f91869c4-0ce4-4ba0-9b25-8d949b9da1e1",
+      "data": [
+        {
+          "text": "show me more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a3dffe19-e473-4c99-b2d3-510d20050322",
+      "data": [
+        {
+          "text": "more information"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "98464260-4203-4f5d-b8eb-c6da3987c632",
+  "parentId": "a6e57f2c-acd1-42e8-8ef0-6d15c27e657f",
+  "rootParentId": "a6e57f2c-acd1-42e8-8ef0-6d15c27e657f",
+  "name": "Iwami Ginzan - Intro",
+  "auto": true,
+  "contexts": [
+    "IwamiGinzan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IwamiGinzan.IwamiGinzan-more",
+      "affectedContexts": [
+        {
+          "name": "IwamiGinzan-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "The Iwami Ginzan (石見銀山?) was an underground silver mine in the city of Ōda, in Shimane Prefecture on the main island of Honshu, Japan.[2] It was the largest silver mine in Japanese history. It was active for almost four hundred years, from its discovery in 1526 to its closing in 1923.",
+            "The mines, mining structures, and surrounding cultural landscape — listed as the \"Iwami Ginzan Silver Mine and its Cultural Landscape\" — became a UNESCO World Heritage Site in 2007.",
+            "The mine was discovered and developed in 1526 by Kamiya Jutei, a Japanese merchant. It reached its peak production in the early 1600s, with approximately 38 tons of silver a year which was then one third of the world\u0027s production.[4]\nSilver from the mine was used widely for coins in Japan. It was contested fiercely by warlords until the Tokugawa Shogunate won control of it in 1600 as a result of the Battle of Sekigahara in 1600.[4] It was later secured by fences and barricaded by pine trees. Yamabuki Castle was built in the center of the mining complex.[4]",
+            "Iwami Ginzan Silver Mine played a pivotal role in East Asian trade, where silver was a key currency. In Europe and China, the mine had been known as the largest silver mine that could compare to the renowned Spanish colonial Cerro Rico mine of Potosí in the Viceroyalty of Peru, a present-day World Heritage Site in Bolivia."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

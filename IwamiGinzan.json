@@ -1,0 +1,50 @@
+{
+  "templates": [
+    "Tell me about Iwami Ginzan"
+  ],
+  "userSays": [
+    {
+      "id": "fcb80744-3914-4e9d-8c50-cb91a8b52f90",
+      "data": [
+        {
+          "text": "Tell me about Iwami Ginzan"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a6e57f2c-acd1-42e8-8ef0-6d15c27e657f",
+  "name": "Iwami Ginzan",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "info.iwamiginzan",
+      "affectedContexts": [
+        {
+          "name": "IwamiGinzan-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Iwami Ginzan is located in Japan, Shimane prefecture, close to Ohda city."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

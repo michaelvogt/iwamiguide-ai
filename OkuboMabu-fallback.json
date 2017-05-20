@@ -1,0 +1,32 @@
+{
+  "templates": [],
+  "userSays": [],
+  "id": "ff59e2bf-62bf-41ee-a48f-2a1ea86bc01a",
+  "parentId": "1b1b8a7a-73ba-4626-88b0-890ed1592d6d",
+  "rootParentId": "1b1b8a7a-73ba-4626-88b0-890ed1592d6d",
+  "name": "Okubo Mabu - fallback",
+  "auto": false,
+  "contexts": [
+    "okubomabu",
+    "OkuboMabu-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "OkuboMabu.OkuboMabu-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

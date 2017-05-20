@@ -1,0 +1,104 @@
+{
+  "templates": [
+    "Hello, I\u0027m  @sys.any:user-name .",
+    "Hello, my name is @sys.any:user-name .",
+    "Hello"
+  ],
+  "userSays": [
+    {
+      "id": "198a6974-a3f1-48c6-8e2f-7d9ac845b685",
+      "data": [
+        {
+          "text": "Hello, I\u0027m  "
+        },
+        {
+          "text": "Pascal",
+          "alias": "user-name",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "1a57fae8-1b62-46dc-8bf7-796818841e41",
+      "data": [
+        {
+          "text": "Hello, my name is "
+        },
+        {
+          "text": "Petra",
+          "alias": "user-name",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "10bc4321-80a4-4001-9ecf-b60c444b3768",
+      "data": [
+        {
+          "text": "Hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "591135a9-5d8c-48e5-a475-b9a20523504f",
+  "name": "Hello",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "greetings",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Hello-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.any",
+          "name": "user-name",
+          "value": "$user-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hello, my name is Ratochan. What is your name?",
+            "Hello $user-name, my name is Ratochan. What can I do for you?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

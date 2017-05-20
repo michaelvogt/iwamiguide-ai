@@ -1,0 +1,157 @@
+{
+  "templates": [
+    "later",
+    "not yet",
+    "ask me later",
+    "not right now",
+    "next time",
+    "I said later",
+    "some other time",
+    "do it later",
+    "not at the moment",
+    "not at this time"
+  ],
+  "userSays": [
+    {
+      "id": "6a0c9747-0461-476f-a4c6-b73ed4284f2d",
+      "data": [
+        {
+          "text": "later"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "72b8dde6-16fc-472d-8a1d-df1ebefc2fed",
+      "data": [
+        {
+          "text": "not yet"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3a104582-2dec-4dcf-86f1-f8bae3913076",
+      "data": [
+        {
+          "text": "ask me later"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1c5b6bd7-04ad-48c0-9a5a-9a33dc31be97",
+      "data": [
+        {
+          "text": "not "
+        },
+        {
+          "text": "right now",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ca730dc9-d064-4e94-afdf-b1b19c020623",
+      "data": [
+        {
+          "text": "next time"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "db674034-7eb8-4314-9851-8e39ca5b0000",
+      "data": [
+        {
+          "text": "I said later"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1e75767f-bbcb-49f8-a404-9f64de907d8e",
+      "data": [
+        {
+          "text": "some other time"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "12eb18d6-6fbe-45e8-9553-6d7ad904adbd",
+      "data": [
+        {
+          "text": "do "
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " later"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb32d6ab-1fbb-4417-950b-86a30ba4111f",
+      "data": [
+        {
+          "text": "not at the moment"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "943bcbc8-6992-44be-a98c-eb4b9f7ce9aa",
+      "data": [
+        {
+          "text": "not at this time"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d267df70-cc98-4f81-ba4b-40b251faaa6e",
+  "parentId": "1b1b8a7a-73ba-4626-88b0-890ed1592d6d",
+  "rootParentId": "1b1b8a7a-73ba-4626-88b0-890ed1592d6d",
+  "name": "Okubo Mabu - later",
+  "auto": true,
+  "contexts": [
+    "okubomabu",
+    "OkuboMabu-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "OkuboMabu.OkuboMabu-later",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

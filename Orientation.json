@@ -1,0 +1,43 @@
+{
+  "templates": [
+    "Where is Iwami Ginzan"
+  ],
+  "userSays": [
+    {
+      "id": "f4bd9dec-1e38-44e5-937c-f33d9b17c596",
+      "data": [
+        {
+          "text": "Where is Iwami Ginzan"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "00c0a715-dea0-40ee-8e92-395ad3971737",
+  "name": "Orientation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

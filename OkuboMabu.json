@@ -1,0 +1,135 @@
+{
+  "templates": [
+    "@sys.location:location ",
+    "Tell me about @sys.location:location .",
+    "How about @sys.location:location ?",
+    "What\u0027s interesting about @sys.location:location "
+  ],
+  "userSays": [
+    {
+      "id": "93ee554e-7ab4-4efa-9e2d-556018f24575",
+      "data": [
+        {
+          "text": "okubo mabu",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "80807131-954d-4b9d-9254-ab8f2a4fb945",
+      "data": [
+        {
+          "text": "Tell me about "
+        },
+        {
+          "text": "Okubo Mabu",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": false
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "27f4be6e-57ca-4d55-81b1-1420f522aeca",
+      "data": [
+        {
+          "text": "How about "
+        },
+        {
+          "text": "Okubo Mabu",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "206ff0ff-1279-4326-86e0-cc08527f8e32",
+      "data": [
+        {
+          "text": "What\u0027s interesting about "
+        },
+        {
+          "text": "Okubo Mabu",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1b1b8a7a-73ba-4626-88b0-890ed1592d6d",
+  "name": "Okubo Mabu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "okubomabu",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "OkuboMabu-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.location",
+          "name": "location",
+          "value": "$location",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "speech": "Do you want to see some pictures?"
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Do you want to see some pictures?"
+        },
+        {
+          "type": 0,
+          "speech": "Okuubo Mabu ist the biggest shaft of Iwami Ginzan. In the beginning, over 30 tons of silver have been produced from its ore per year."
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "google",
+        "telegram"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,41 @@
+{
+  "templates": [],
+  "userSays": [],
+  "id": "e51ed0a1-5b2e-4059-901c-3edc2ddd2819",
+  "name": "Default Welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hi! What can I do for you today?",
+            "Hello! What can I do for you today?",
+            "Good day! What can I do for you today?",
+            "Greetings! ! What can I do for you today?",
+            "Hello. I\u0027m Ratochan."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "google",
+        "telegram"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

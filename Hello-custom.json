@@ -1,0 +1,95 @@
+{
+  "templates": [
+    "@sys.given-name:user-name , nice to meet you",
+    "@sys.given-name:user-name ",
+    "My name is @sys.given-name:user-name "
+  ],
+  "userSays": [
+    {
+      "id": "5cb03621-c85f-48a6-a395-28b44f16ef8f",
+      "data": [
+        {
+          "text": "Thomas",
+          "alias": "user-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        },
+        {
+          "text": ", nice to meet you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "edf9b71c-a319-4b19-b645-9f1096a6b581",
+      "data": [
+        {
+          "text": "Martin",
+          "alias": "user-name",
+          "meta": "@sys.given-name",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a6e38ea1-1112-4726-823b-e54d2a8ff640",
+      "data": [
+        {
+          "text": "My name is "
+        },
+        {
+          "text": "Petra",
+          "alias": "user-name",
+          "meta": "@sys.given-name",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a9c79de4-40fe-43b9-92ed-80221e307c8f",
+  "parentId": "591135a9-5d8c-48e5-a475-b9a20523504f",
+  "rootParentId": "591135a9-5d8c-48e5-a475-b9a20523504f",
+  "name": "Hello - custom",
+  "auto": true,
+  "contexts": [
+    "greetings",
+    "Hello-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Hello.Hello-custom",
+      "affectedContexts": [
+        {
+          "name": "greetings",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.given-name",
+          "name": "user-name",
+          "value": "$user-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hello $user-name, what can I do for you."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

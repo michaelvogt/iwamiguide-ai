@@ -1,0 +1,55 @@
+{
+  "templates": [
+    "See you soon",
+    "Good bye"
+  ],
+  "userSays": [
+    {
+      "id": "51848a68-3667-4aab-9431-dda2b6b0172c",
+      "data": [
+        {
+          "text": "See you soon"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1b408267-51d8-42bb-92db-3156ea922e9e",
+      "data": [
+        {
+          "text": "Good bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "abccd496-45f7-49f8-ad5a-551bddce7729",
+  "name": "GoodBye",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "exit",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Happy that I could help. See you soon."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

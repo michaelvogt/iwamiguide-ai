@@ -1,0 +1,52 @@
+{
+  "templates": [
+    "how to get there by car?"
+  ],
+  "userSays": [
+    {
+      "id": "e00cd464-eef7-4795-a38a-abea146d1896",
+      "data": [
+        {
+          "text": "how to get there by "
+        },
+        {
+          "text": "car",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "86cd939d-ff22-42e2-be72-1ca9f43dec19",
+  "parentId": "a6e57f2c-acd1-42e8-8ef0-6d15c27e657f",
+  "rootParentId": "a6e57f2c-acd1-42e8-8ef0-6d15c27e657f",
+  "name": "Iwami Ginzan - custom-car",
+  "auto": true,
+  "contexts": [
+    "IwamiGinzan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IwamiGinzan.IwamiGinzan-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Should I open Google Maps for you?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

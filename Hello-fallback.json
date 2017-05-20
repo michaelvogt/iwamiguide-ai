@@ -1,0 +1,38 @@
+{
+  "templates": [],
+  "userSays": [],
+  "id": "83522093-0ed5-43a8-aa64-715375fe59b7",
+  "parentId": "591135a9-5d8c-48e5-a475-b9a20523504f",
+  "rootParentId": "591135a9-5d8c-48e5-a475-b9a20523504f",
+  "name": "Hello - fallback",
+  "auto": false,
+  "contexts": [
+    "greetings",
+    "Hello-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Hello.Hello-fallback",
+      "affectedContexts": [
+        {
+          "name": "greetings",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hello my friend, what can I do for you."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

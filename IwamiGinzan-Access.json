@@ -1,0 +1,104 @@
+{
+  "templates": [
+    "How to get there by @transport:bus ?",
+    "How to get there by @transport:car ?",
+    "How to get there?"
+  ],
+  "userSays": [
+    {
+      "id": "29d92a75-ee4e-4739-a425-421282219e5e",
+      "data": [
+        {
+          "text": "How to get there by "
+        },
+        {
+          "text": "bus",
+          "alias": "bus",
+          "meta": "@transport",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0dd3ca6b-c0ba-40b2-83d1-d834abe1f87c",
+      "data": [
+        {
+          "text": "How to get there by "
+        },
+        {
+          "text": "car",
+          "alias": "car",
+          "meta": "@transport",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1b3945e8-c57b-4b61-afcd-5ffa42b3d167",
+      "data": [
+        {
+          "text": "How to get there?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "221ea134-96ac-4f45-b32b-0a6219f43333",
+  "parentId": "a6e57f2c-acd1-42e8-8ef0-6d15c27e657f",
+  "rootParentId": "a6e57f2c-acd1-42e8-8ef0-6d15c27e657f",
+  "name": "Iwami Ginzan - Access",
+  "auto": true,
+  "contexts": [
+    "IwamiGinzan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IwamiGinzan.IwamiGinzan-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@transport",
+          "name": "car",
+          "value": "$car",
+          "isList": false
+        },
+        {
+          "dataType": "@transport",
+          "name": "bus",
+          "value": "$bus"
+        },
+        {
+          "dataType": "@transport",
+          "name": "train"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "For public transport, Izumo and HIroshima are the next bigger transport hubs. For train, By train, Okayama is the best train station to get to Izumo.",
+            "For the route by $car, its maybe easiest when you open check out Google Maps.",
+            "When traveling by $bus, there are many bus routes to Izumo, even a direct bus from Tokyo."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

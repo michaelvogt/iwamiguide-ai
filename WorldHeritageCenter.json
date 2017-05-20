@@ -1,0 +1,56 @@
+{
+  "templates": [
+    "Where is the @sys.location:location "
+  ],
+  "userSays": [
+    {
+      "id": "58f51598-ea29-4078-ab56-dfe6dca6a19b",
+      "data": [
+        {
+          "text": "Where is the "
+        },
+        {
+          "text": "world heritage center",
+          "alias": "location",
+          "meta": "@sys.location",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "93b5ed35-129f-41cf-a42f-d160269b2be2",
+  "name": "World Heritage Center",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.location",
+          "name": "location",
+          "value": "$location",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
